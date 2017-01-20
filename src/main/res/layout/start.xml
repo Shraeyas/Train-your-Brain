@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:srcCompat="@android:color/holo_green_light"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/imageView" />
+
+    <TextView
+        android:text="Train Your Brain!"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="63dp"
+        android:textSize="50sp"
+        android:textStyle="normal|bold"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textColor="@android:color/background_dark"
+        android:gravity="center_horizontal" />
+
+    <Button
+        android:text="Go!"
+        android:id="@+id/start"
+        android:textSize="40sp"
+        android:textStyle="normal|bold"
+        android:background="@android:color/holo_green_light"
+        android:layout_width="360dp"
+        android:layout_height="360dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="creategame" />
+</RelativeLayout>
